@@ -87,6 +87,7 @@ docker ps
 ```
 <img width="1920" height="1080" alt="Screenshot (1008)" src="https://github.com/user-attachments/assets/ad8568cd-6ffd-4227-afe9-7d5388406635" />
 
+<img width="1920" height="1080" alt="Screenshot (1009)" src="https://github.com/user-attachments/assets/aaed6973-3dcf-471d-9cd7-f8cda8b62561" />
 
 ## 5. Destroy Infrastructure
 ```bash
