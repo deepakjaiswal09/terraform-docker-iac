@@ -54,14 +54,14 @@ resource "docker_container" "nginx" {
 }
 
 ```
-##▶️ Execution Steps
+## ▶️ Execution Steps
 1. Initialize Terraform
 ```bash
 terraform init
 ```
  <img width="1920" height="1080" alt="Screenshot (1001)" src="https://github.com/user-attachments/assets/afb988d4-c47d-4404-a8a6-a04c382256a0" />
 
-##2. Preview
+## 2. Preview
 Execution Plan
 ```bash
 terraform plan
@@ -70,7 +70,7 @@ terraform plan
 <img width="1920" height="1080" alt="Screenshot (1003)" src="https://github.com/user-attachments/assets/394d0f18-363b-43c6-a4b2-6e0158e89299" />
 
 
-##3. Apply the Configuration
+## 3. Apply the Configuration
 ```bash
 terraform apply -auto-approve
 ```
@@ -81,27 +81,27 @@ terraform apply -auto-approve
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3c1bddbd-d6de-4f6d-bd03-0730df0f1378" />
 
 
-##4. Verify Container
+## 4. Verify Container
 ```bash
 docker ps
 ```
 <img width="1920" height="1080" alt="Screenshot (1008)" src="https://github.com/user-attachments/assets/ad8568cd-6ffd-4227-afe9-7d5388406635" />
 
 
-##5. Destroy Infrastructure
+## 5. Destroy Infrastructure
 ```bash
 terraform destroy -auto-approve
 ```
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ee0a1fa8-2d54-49aa-8e90-4a9e7632e6b0" />
 
-##6. View Terraform State
+## 6. View Terraform State
 ```bash
 terraform state list
 ```
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aca3ed3f-33a3-4a8f-a286-9c176ef3bdbf" />
 
 
-#💡 Key Learnings
+# 💡 Key Learnings
 
 - IaC enables reproducible and automated infrastructure provisioning.
 
